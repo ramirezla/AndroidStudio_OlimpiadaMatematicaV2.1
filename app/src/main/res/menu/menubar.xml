@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+
+    <item android:id="@+id/id_guias"
+        android:icon="@drawable/ic_picture_as_pdf_white_24dp"
+        android:title="Guias"
+        android:orderInCategory="1"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/id_acercade"
+        android:icon="@drawable/ic_info_outline_white_24dp"
+        android:title="Acerca de"
+        android:orderInCategory="2"
+        app:showAsAction="always"/>
+</menu>

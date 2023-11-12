@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="3dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:text="Alcance de la Prueba"
+            android:id="@+id/textView"
+            android:textSize="20dp"
+            android:textColor="#303f9f"
+            android:textStyle="bold"
+            style="@android:style/Widget.Holo.Spinner" />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sPAlcance"
+            android:layout_gravity="center_horizontal"
+            style="@android:style/Widget.Spinner.DropDown"
+            android:splitMotionEvents="false"
+            android:angle="90"
+            android:centerX="15%"
+            android:centerColor="#D1CDD0"
+            android:startColor="#E8E8E8"
+            android:endColor="#808080"
+            android:type="linear"/>
+
+        <TextView
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:text="Año de Estudio"
+            android:id="@+id/textView3"
+            android:textSize="20dp"
+            android:textColor="#303f9f"
+            android:textStyle="bold"
+            style="@android:style/Widget.Holo.Spinner" />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sPAnnoE"
+            android:layout_gravity="center_horizontal"
+            style="@android:style/Widget.Spinner.DropDown"
+            android:splitMotionEvents="false"
+            android:angle="90"
+            android:centerX="15%"
+            android:centerColor="#D1CDD0"
+            android:startColor="#E8E8E8"
+            android:endColor="#808080"
+            android:type="linear" />
+
+        <TextView
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:text="Año de la Prueba"
+            android:id="@+id/textView6"
+            android:textSize="20dp"
+            android:textColor="#303f9f"
+            android:textStyle="bold"
+            style="@android:style/Widget.Holo.Spinner" />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sPAnnosExamen"
+            android:layout_gravity="center_horizontal"
+            style="@android:style/Widget.Spinner.DropDown"
+            android:splitMotionEvents="false"
+            android:angle="90"
+            android:centerX="15%"
+            android:centerColor="#D1CDD0"
+            android:startColor="#E8E8E8"
+            android:endColor="#808080"
+            android:type="linear"/>
+
+        <Button
+            android:id="@+id/bTProceder"
+            android:text="Prueba"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:background="@layout/estilo_boton"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_gravity="bottom|center" />
+
+    </LinearLayout>
+</AbsoluteLayout>
